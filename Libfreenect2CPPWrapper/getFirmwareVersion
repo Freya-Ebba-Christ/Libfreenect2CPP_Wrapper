@@ -262,9 +262,9 @@ public:
         return dev->getSerialNumber();
     }
 
-    const int getFirmwareVersion() {
+    const std::string getFirmwareVersion() {
 
-        dev->getFirmwareVersion();
+        return dev->getFirmwareVersion();
     }
 
     void shutDown() {
